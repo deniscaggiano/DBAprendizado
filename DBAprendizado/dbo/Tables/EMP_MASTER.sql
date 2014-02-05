@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[EMP_MASTER] (
+    [EMP_NBR]  INT           NOT NULL,
+    [EMP_NAME] NVARCHAR (50) NULL,
+    [MGR_NBR]  INT           NULL,
+    PRIMARY KEY CLUSTERED ([EMP_NBR] ASC)
+);
+
